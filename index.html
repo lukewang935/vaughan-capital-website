@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaughan Capital Advisors</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            overflow: hidden;
+            text-align: left;
+            padding-left: 5%;
+        }
+        .hero video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .hero-overlay {
+            position: relative;
+            text-align: left;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            max-width: 50%;
+            margin-left: 5%;
+        }
+        #services ul {
+            list-style-position: inside;
+            padding: 0;
+            text-align: center;
+            display: inline-block;
+        }
+        #services ul li {
+            text-align: left;
+        }
+        #about {
+            max-width: 66%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #team {
+            max-width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Vaughan Capital Advisors Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <video autoplay muted loop playsinline>
+            <source src="hero-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay">
+            <h1>Driving Media and Technology Companies to an Empowered Future</h1>
+            <p>Clarity. Commitment. Capital.</p>
+            <a href="https://www.linkedin.com/company/vaughan-capital-advisors/" target="_blank" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Vaughan Capital Advisors</h2>
+        <p>Vaughan Capital Advisors (VCA) is a middle-market transaction advisory firm based in Los Angeles. We provide world-class M&A and strategic advisory services to companies operating at the intersection of media & technology.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Mergers & Acquisitions</li>
+            <li>Capital Formation</li>
+            <li>Market Assessment & Valuation</li>
+        </ul>
+    </section>
+
+    <section id="team">
+        <h2>Our Team</h2>
+        <p>Our leadership team has over 20 years of investment banking, studio, and talent agency deal experience, optimizing value for our clients at both individual and corporate levels.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to take your company to the next level? <a href="mailto:info@vaughancapital.com">Email us</a> or call us at (123) 456-7890.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vaughan Capital Advisors. All rights reserved.</p>
+    </footer>
+</body>
+</html>
